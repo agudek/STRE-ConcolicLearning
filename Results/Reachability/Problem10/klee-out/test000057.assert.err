@@ -1,0 +1,9 @@
+Error: ASSERTION FAIL: 0
+File: /home/klee/shared/RERS_R_2017/Problem10/Problem10st.c
+Line: 49
+assembly.ll line: 212
+Stack: 
+	#000000212 in __VERIFIER_error (i=22) at /home/klee/shared/RERS_R_2017/Problem10/Problem10st.c:49
+	#100000585 in errorCheck () at /home/klee/shared/RERS_R_2017/Problem10/Problem10st.c:407
+	#200008545 in calculate_output (input) at /home/klee/shared/RERS_R_2017/Problem10/Problem10st.c:2493
+	#300008622 in main () at /home/klee/shared/RERS_R_2017/Problem10/Problem10st.c:2517
